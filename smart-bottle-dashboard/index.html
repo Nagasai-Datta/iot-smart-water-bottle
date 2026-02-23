@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Smart Bottle Dashboard</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Firebase -->
+
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+<h1>Smart Bottle Dashboard</h1>
+
+
+<div class="card">
+
+<h2>Live Data</h2>
+
+<p>Temperature:
+<span id="temp">--</span> °C</p>
+
+<p>Setpoint:
+<span id="setpoint">--</span> °C</p>
+
+<p>Mode:
+<span id="mode">--</span></p>
+
+<p>Heater:
+<span id="heater">--</span></p>
+
+<p>Cooler:
+<span id="cooler">--</span></p>
+
+</div>
+
+
+
+<div class="card">
+
+<h2>Control Temperature</h2>
+
+<input
+type="range"
+min="5"
+max="85"
+value="50"
+id="slider"
+>
+
+<p>
+
+Target Temperature:
+
+<span id="sliderValue">
+
+50
+
+</span>
+
+°C
+
+</p>
+
+</div>
+
+
+</div>
+
+
+<script src="js/app.js"></script>
+
+</body>
+
+</html>
