@@ -185,7 +185,11 @@ Then open [http://localhost:8000](http://localhost:8000) in your browser.
 
 Move the slider and verify that `bottle/control/setpoint` updates in the Firebase Console in real time.
 
-To deploy publicly, you can use **Firebase Hosting** (`firebase deploy`) or push the `smart-bottle-dashboard/` folder to **GitHub Pages**.
+The dashboard is already live and publicly accessible at:
+
+**[https://nagasai-datta.github.io/smart-bottle-dashboard/](https://nagasai-datta.github.io/smart-bottle-dashboard/)**
+
+To redeploy updates, push changes to the `smart-bottle-dashboard` repo and GitHub Pages will rebuild automatically.
 
 ---
 
